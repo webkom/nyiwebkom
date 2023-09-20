@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: min(720px, 100%);
+}
+
+.todoTitle {
+  text-align: center;
+}
+
+.footerText {
+  color: gray;
+  text-align: center;
+}
