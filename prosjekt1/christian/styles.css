@@ -1,1 +1,66 @@
+html {
+    background-color: lightslategray;
+}
 
+body {
+    margin: 0;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    padding: 10px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.cont > div {
+    display: flex;
+    flex-direction: column;
+    background-color: lightcoral;
+    padding: 2%;
+    text-align: center;
+}
+
+.cont > div > img {
+    border-radius: 50%;
+    border: 10px solid green;
+    animation:spin 6s linear infinite;
+}
+
+.cont > div > h2 {
+    background-color: white;
+    border-radius: 50%
+}
+
+.cont > div > ol {
+    background-color: lightgreen;
+    border-radius: 1rem;
+}
+
+.cont > div > ol > li {
+    background-color: lightcyan;
+    margin: 2%;
+    border-radius: 1rem;
+}
+
+.cont > h1 {
+    background-color: lightcoral;
+    margin: 1%;
+}
+
+.cont > span {
+    background-color: azure;
+}
+
+h1 {
+    text-align: center;
+}
+
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
