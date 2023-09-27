@@ -1,0 +1,49 @@
+body {
+  font-family: mono;
+}
+
+main {
+  width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+#profilepicture {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 200px;
+}
+
+#footer {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#footer ion-icon {
+  color: gray;
+}
+
+#footer ion-icon:hover {
+  color: black;
+}
+
+.movieList li {
+  margin-bottom: 25px;
+}
+
+.movieList img {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.backLink {
+  display: block;
+  text-align: right;
+}
