@@ -1,0 +1,16 @@
+.knapp {
+    width: 25%;
+    padding: 7% 0;
+
+
+    border: black solid 1px;
+    border-radius: 50px ;
+    margin: 5px;
+    font-size: 50px ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
