@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./TodoInput.css"
 
-export type TodoInputProps = {
+export type TodoInputProps = { 
   onAdd: (value: string) => void;
 };
 
