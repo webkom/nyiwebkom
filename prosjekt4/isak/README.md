@@ -16,4 +16,4 @@ React med TypeScript og API-fetching
 Oppgaver
 
 - Hent informasjon fra LEGO-apiet om kommende events
-- Lag et komponent som kan vise fram de kommende eventene
+- Lag en komponent som kan vise fram de kommende eventene
