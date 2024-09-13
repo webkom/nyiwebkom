@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+    padding: 50px;
+    background-color: lightblue;
+}
+#form {
+    margin: 50px;
+    background-color: rgb(223, 236, 240);
+    height: 500px;
+    padding: 20px;
+}
+
+form > * {
+    margin: 5px;
+}
+
+.output {
+    font-size: 20px;
+}
+
