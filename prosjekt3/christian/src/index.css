@@ -1,0 +1,17 @@
+html {
+  background-color: navajowhite;
+  display: flex;
+  justify-content: center;
+}
+
+.liste {
+  display: flex;
+  flex-direction: column;
+}
+
+.liste > div {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
