@@ -20,12 +20,12 @@ function newUser(e) {
 
     }
 
-    if (startår-2024 > 5) {
-        årOutputEl.innerText += "Du har her i mer enn 5 år, da må du ha tatt noen ekstra år. Håper du har kost deg i webkom"
-    }else if (startår-2024 > 5) {
-        årOutputEl.innerText += "Du har her i mer enn 3 år, det begynner å bli en del år"
+    if (2024-startår > 5) {
+        årOutputEl.innerText += "Du har vært her i mer enn 5 år, da må du ha tatt noen ekstra år. Håper du har kost deg i Webkom! ❤"
+    }else if (2024-startår > 3) {
+        årOutputEl.innerText += "Du har vært her i mer enn 3 år, det begynner å bli en del år! 🤩"
     }else if (startår==2024){
-        årOutputEl.innerText += "Du har nettopp blitt med. Gratulerer! Dette kommer til å bli gøy"
+        årOutputEl.innerText += "Du har nettopp blitt med. Gratulerer! Dette kommer til å bli gøy 😊"
     }
 
 }
