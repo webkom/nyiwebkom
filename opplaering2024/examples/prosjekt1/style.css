@@ -1,20 +1,27 @@
-h1 {
-	text-align: center;
-	padding: 50px;
-	background-color: lightblue;
+#form-container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    background-color: rgb(223, 236, 240);
+    padding: 20px;
 }
 
 #form {
-	margin: 50px;
-	background-color: rgb(223, 236, 240);
-	height: 500px;
-	padding: 20px;
+    margin-bottom: 20px;
 }
 
-form>* {
-	margin: 5px;
+#svar-container {
+    display: flex;
+    align-items: flex-start;
 }
 
-.output {
-	font-size: 20px;
+#bilde {
+    margin-left: 20px;
+    display: none;
+}
+
+#bilde img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
