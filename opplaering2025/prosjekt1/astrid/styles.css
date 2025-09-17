@@ -1,1 +1,55 @@
+#MagnusHjul {
+width: 100px;
+height: 100px;
 
+}
+
+#SpotifyLogo {
+position: relative;
+top: 30px;
+left: 20px;
+width: 150px;
+height: 150px;
+}
+
+.hjul {
+border-radius: 50%;
+object-fit: cover;
+animation:spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {-webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+    }
+}
+
+video {
+    position: relative;
+    top: 250px;
+    left: 20px;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    
+}
+
+#Hoved {
+    background-image: url('Images/Marthe Wang-29_Original.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    color: #ffffff;
+}
+
+body {
+    background-image: url('Images/SondreBite.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    color: #ffffff;
+}
