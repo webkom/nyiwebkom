@@ -7,6 +7,24 @@
     font-family: "Source Code Pro", monospace;
 }
 
+body {
+    background-color: red;
+}
+body.chill {
+    background-color: #154D71;
+    color: rgb(222, 226, 255);
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 8px;
+}
+
+.top {
+    text-align: center;
+}
+
 .buttons {
     margin: 0 auto;
     display: flex;
@@ -53,18 +71,12 @@ button:hover {
     animation: rainbow 1s linear infinite;
 }
 
-.button.chill {
-    background-color: white;
-}
-
-body {
-    background-color: red;
-}
-
-main {
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 8px;
+button.chill {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    text-shadow: none;
+    box-shadow: 1px 1px rgb(0, 0, 0);
 }
 
 
@@ -102,11 +114,9 @@ main {
 
 #stuckPopup {
     background-color: rgba(255, 255, 255, 0.871);
+    color: black;
     padding: 8px 16px;
     border-radius: 5px;
-    position: relative;
-    top: 300px;
-    left: 50%;
-    transform: translateX(-50%);
-    max-width: 200px;
+    max-width: 400px;
+    margin: 0 auto;
 }
