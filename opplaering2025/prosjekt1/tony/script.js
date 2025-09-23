@@ -3,13 +3,12 @@ const root = document.documentElement;
 const guessInput = document.getElementById("gjett");
 const state = document.getElementById("state");
 
-const numInput = document.getElementById("numInput")
-const numButton = document.getElementById("numButton")
-const numText = document.getElementById("num")
-let num = ""
+const numInput = document.getElementById("numInput");
+const numButton = document.getElementById("numButton");
+const numText = document.getElementById("num");
+let num = "";
 
 guessInput.addEventListener("input", (val) => {
-  console.log(val);
   if (!val.data) {
     for (i = 1; i <= 3; i++) {
       root.style.setProperty(`--card-${i}`, "collapse");
@@ -46,14 +45,18 @@ guessInput.addEventListener("input", (val) => {
 });
 
 numInput.addEventListener("input", (val) => {
-  num = val.data
-})
+  if (!val.data) {
+    num = num.slice(0, -1);
+    return
+  }
+  num += val.data;
+});
 
 numButton.addEventListener("click", () => {
   if (num === "") {
-    numText.innerText = "gjett et tall pls"
-    return
+    numText.innerText = "gjett et tall pls";
+    return;
   }
 
-  numText.innerText = `tallet du tenker på er... \n ${num}`
-})
+  numText.innerText = `tallet du tenker på er... \n ${num}`;
+});
