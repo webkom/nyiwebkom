@@ -1,11 +1,70 @@
 <!DOCTYPE html>
 <html lang="nb-NO">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>En nettside</title>
-  <link href="styles.css" rel="stylesheet"/>
-</head>
-<body>
-</body>
-</html> 
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tony Nettside</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="topheader">yo me is tony</h1>
+    <div class="tony-pics-div">
+      <div>
+        <p class="pic-title">n/a år</p>
+        <img class="tony-pic" src="b.jpg" />
+      </div>
+      <div>
+        <p class="pic-title">prime</p>
+        <img class="tony-pic" src="c.jpg" />
+      </div>
+      <div>
+        <p class="pic-title">akkurat nå</p>
+        <img class="tony-pic" src="a.jpg" />
+      </div>
+    </div>
+    <div class="things">
+      <div class="dos-uno">
+        <h2>dos truths uno lies:</h2>
+        <ol>
+          <li>har hatt it fagene på vgs</li>
+          <li>ser på fotball</li>
+          <li>elsker maccern</li>
+        </ol>
+        <input id="gjett" placeholder="gjett the lie (1,2,3)" />
+        <h2 id="state"></h2>
+        <div id="card-1" class="card-wrong">
+          <h3>Det var ingen IT1 eller IT2 på skolen min as..</h3>
+          <p>
+            Siden mesteparten av skolen min besto av SSØ elever, var det dessverre
+            ikke mange som valgte IT fagene. Vi klarte så vidt å få en Teknologi
+            og Forskningslære klasse.
+          </p>
+        </div>
+        <div id="card-2" class="card-riktig">
+          <h3>Ser jo på fotball.</h3>
+          <p>
+            Støtter Arsenal og min hjemmeby Moss. Har også vært på Ullevål for å
+            se på Norge spille.
+          </p>
+        </div>
+        <div id="card-3" class="card-riktig">
+          <h3>
+            Det er kanskje litt misvisende, fordi det er kun én mat som jeg
+            liker...
+          </h3>
+          <p>
+            ...og det er hot wings! Det er legit en kausalitet der hot wings er
+            på menyen og en tony som er på maccern.
+          </p>
+        </div>
+      </div>
+      <div>
+        <h2>tenk på et tall</h2>
+        <input id="numInput" placeholder="skriv inn tallet" />
+        <button id="numButton">la meg gjette</button>
+        <p id="num"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,1 +1,101 @@
+:root {
+  --card-1: collapse;
+  --card-2: collapse;
+  --card-3: collapse;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tony-pic {
+  height: 300px;
+  transition-duration: 0.1s;
+  border-radius: 6px;
+}
+
+.tony-pic:hover {
+  height: 325px;
+  transition-duration: 0.1s;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topheader {
+  background-color: maroon;
+  color: aliceblue;
+  text-align: center;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+.tony-pics-div {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.pic-title {
+  margin-bottom: 5px;
+  font-size: large;
+}
+
+.things {
+  display: flex;
+  gap: 350px;
+  justify-content: center;
+}
+
+.dos-uno {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+#gjett {
+  width: 200px;
+}
+
+.card-wrong {
+  max-width: 700px;
+  background-color: lightpink;
+  border-color: lightcoral;
+  border-style: solid;
+  border-radius: 6px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-riktig {
+  max-width: 700px;
+  background-color: lightgreen;
+  border-color: green;
+  border-style: solid;
+  border-radius: 6px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#card-1 {
+  visibility: var(--card-1);
+}
+
+#card-2 {
+  visibility: var(--card-2);
+}
+
+#card-3 {
+  visibility: var(--card-3);
+}
+
+#num {
+  font-size: x-large;
+  text-align: center;
+}
