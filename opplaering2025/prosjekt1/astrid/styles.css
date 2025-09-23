@@ -1,3 +1,5 @@
+
+
 #MagnusHjul {
 width: 100px;
 height: 100px;
@@ -11,6 +13,7 @@ left: 20px;
 width: 150px;
 height: 150px;
 }
+
 
 .hjul {
 border-radius: 50%;
@@ -52,4 +55,43 @@ body {
     margin: 0;
     height: 100vh;
     color: #ffffff;
+}
+
+#secret-spot {
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  top: 130px;         
+  left: 750px;
+  /*background-color: rgba(64, 255, 0, 0.2); /* kan fjernes hvis du vil ha usynlig */
+  cursor: pointer;
+}
+
+/* ENDRING: sentrerer linken med id rickroll */
+#rickroll {
+  display: block;        
+  text-align: center;    
+  margin: 10px auto;     
+  color: white;         
+  font-size: 22px;      
+  text-decoration: none; 
+}
+
+
+ h1 {
+      text-align: center; 
+      font-family: 'Comic Neue', cursive;   
+        font-size: 48px;                      
+        animation: rainbow 2s linear infinite;
+    }
+
+@keyframes rainbow {
+  0%   { color: red; }
+  14%  { color: orange; }
+  28%  { color: yellow; }
+  42%  { color: green; }
+  57%  { color: blue; }
+  71%  { color: indigo; }
+  85%  { color: violet; }
+  100% { color: red; }
 }
