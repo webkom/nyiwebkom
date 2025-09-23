@@ -1,1 +1,107 @@
+body{
+    background-color: rgb(202, 91, 160);
+}
 
+#kort{
+
+    background-image: url('bilder/rainbow.png');
+    background-position: right;
+    background-size: cover;
+    width: 1000px;
+    height: 630px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    display: grid;
+    background-color: #f8d2ed;
+    box-shadow: 30px 30px 50px rgb(41, 41, 41);
+    :hover{cursor: grab;}
+}
+
+#kort > div {
+  /* background-color: #5a5a5a; */
+  /* border: 1px solid black; */
+  font-size: 30px;
+  margin: 0x;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#meg{
+    width: 300px;
+    /* border-radius: 30px; */
+}
+
+#item1{
+    grid-column: 1;
+    grid-row: 1 / span 4;
+}
+
+#item2{
+    grid-column: 1;
+    grid-row: 5;
+}
+
+#item3{
+    text-align: left;
+    grid-column: 1;
+    > p {font-size: 32px;}
+}
+
+
+#item4{
+    grid-column: 2 / span 5;
+    grid-row: 1 / span 1;
+    > h1, h2 {margin: 0;}
+}
+
+#item5{
+    grid-column: 2;
+    grid-row: 2 / span 2;
+    text-align: center;
+}
+
+#item6{
+    grid-column: 3;
+    grid-row: 2 / span 2;
+    text-align: center;
+}
+
+#item7{
+    grid-column: 4;
+    grid-row: 2 / span 2;
+    text-align: center;
+}
+
+#item8{
+    grid-column: 5;
+    grid-row: 2 / span 2;
+    text-align: center;
+}
+
+#item9{
+    grid-column: 6;
+    grid-row: 2 / span 2;
+    text-align: center;
+}
+
+#item10{
+    grid-column: 2;
+    grid-row: 4 / span 2;
+    text-align: center;
+}
+
+#item11{
+    grid-column: 3;
+    grid-row: 4 / span 2;
+    text-align: center;
+}
+
+
+#item12{
+    grid-column: 2 / span 5;
+    grid-row: 6;
+    > img {height: 150px;}
+}
