@@ -5,6 +5,7 @@ const card = document.getElementById("kort")
 card.addEventListener("mousedown", mouseDown)
 
 function mouseDown(e){
+    
     startX = e.clientX
     startY = e.clientY
 
