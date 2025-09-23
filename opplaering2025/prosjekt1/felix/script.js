@@ -1,5 +1,7 @@
-imageListEl = document.querySelector(".imageList")
-stuckPopupEl = document.querySelector("#stuckPopup")
+const imageListEl = document.querySelector(".imageList")
+const stuckPopupEl = document.querySelector("#stuckPopup")
+const buttons = document.querySelectorAll("button")
+const body = document.body
 
 imageLinks = [
     {
@@ -49,11 +51,24 @@ imageLinks = [
 
 let scrollLocked = false;
 
-document.getElementById("scrollToggle").addEventListener("click", () => {
+/* Stuck button */
+buttons[0].addEventListener("click", () => {
     scrollLocked = !scrollLocked;
     document.body.style.overflow = scrollLocked ? "hidden" : "auto";
     stuckPopupEl.style.display = scrollLocked ? "block" : "none";
 });
+
+/* Chill mode button */
+chillElementsList = [body, buttons[0], buttons[1]]
+
+buttons[1].addEventListener("click", () => {
+    chillElementsList.forEach(element => {
+        console.log(element)
+     
+    });
+})
+
+
 imageLinks.forEach(image => {
     imageListEl.innerHTML += `
         <div class="imageBox">
