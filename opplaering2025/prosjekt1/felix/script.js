@@ -2,6 +2,7 @@ const imageListEl = document.querySelector(".imageList")
 const stuckPopupEl = document.querySelector("#stuckPopup")
 const buttons = document.querySelectorAll("button")
 const body = document.body
+const chillSongAu = document.querySelector("#chillSong")
 
 imageLinks = [
     {
@@ -45,7 +46,7 @@ imageLinks = [
         imageLink: "sofa",
         imageText: "Denne har du kanskje ikke sett før, men ja jeg satt meg faktisk fast i sofaen og slappet av hele dagen. Tok rundt 2 timer å komme meg løs."
 
-    },
+    }
 
 ]
 
@@ -59,13 +60,29 @@ buttons[0].addEventListener("click", () => {
 });
 
 /* Chill mode button */
-chillElementsList = [body, buttons[0], buttons[1]]
+chillElementsList = [body, buttons[0], buttons[1], imageListEl]
 
 buttons[1].addEventListener("click", () => {
+    document.querySelectorAll(".imageBox").forEach(element => {
+        console.log(element)
+        element.classList.toggle("chill")
+        element.style.transition = "var(--time)"
+    })
+
     chillElementsList.forEach(element => {
         console.log(element)
-     
+        element.classList.toggle("chill")
     });
+
+
+    if (buttons[1].classList.contains("chill")) {
+        buttons[1].innerHTML = "Trykk her for å ikke chille lenger"
+        chillSongAu.play()
+    } else {
+        buttons[1].innerHTML = "Trykk her for å chille"
+        chillSongAu.pause()
+    }
+
 })
 
 
@@ -74,6 +91,6 @@ imageLinks.forEach(image => {
         <div class="imageBox">
             <p>${image.imageText}</p>
             <div class="imageDiv"><img src="${image.imageLink}.jpeg"></div>
-      </div>
-    `
+        </div>
+        `
 });
