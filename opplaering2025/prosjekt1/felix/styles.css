@@ -7,16 +7,21 @@
     font-family: "Source Code Pro", monospace;
 }
 
+:root {
+  --time: 7s;
+}
+
 body {
     background-color: red;
 }
 body.chill {
+    transition: var(--time);
     background-color: #154D71;
-    color: rgb(222, 226, 255);
+    color: rgb(255, 255, 255);
 }
 
 main {
-    max-width: 600px;
+    max-width: 700px;
     margin: 20px auto;
     padding: 8px;
 }
@@ -29,7 +34,7 @@ main {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 12px;
 }
 
 button {
@@ -73,6 +78,7 @@ button:hover {
 
 button.chill {
     background: rgb(255, 255, 255);
+    transition: background-color var(--time);
     color: rgb(0, 0, 0);
     border: none;
     text-shadow: none;
@@ -86,22 +92,35 @@ button.chill {
     text-align: start;
     padding: 10px;
     border-radius: 5px;
-    gap: 4px;
-    max-width: 600px;
+    gap: -8px;
+    max-width: 980px;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+.imageList.chill {
+    gap: 12px;
+    transition: var(--time);
+}
+
 .imageBox {
-    width: 250px;
-    height: 350px;
-    background-color: rgba(160, 160, 160, 0.37);
-    padding: 8px;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(188, 66, 0);
+    padding: 12px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     gap: 8px;
     overflow: hidden;
+    color: black;
+    font-size: 14px;
+    border: 5px solid blue;
+}
+.imageBox.chill {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    transition: var(--time);
 }
 
 .imageDiv {
@@ -109,7 +128,7 @@ button.chill {
 }
 
 .imageDiv img {
-    width: 250px;
+    width: 350px;
 }
 
 #stuckPopup {
