@@ -2,7 +2,7 @@
 
 ## Om meg
 Språket jeg liker best: TypeScript
-Beste stedet på gløs:
+Beste stedet på gløs: Webkom kontoret :p
 
 ## Runde 1
 - [ ] Lag branchen `add-<navn>` fra fersk master
