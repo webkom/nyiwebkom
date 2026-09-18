@@ -20,5 +20,5 @@ Beste stedet på gløs: Webkom-kontoret
 
 ## Anbefaling
 <!-- Denne fyller <Nabo> ut i runde 2. Ikke rør den selv. -->
-Anbefalt av:
-Tips:
+Anbefalt av: Fredrik
+Tips: Squash når du merger
