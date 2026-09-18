@@ -1,7 +1,7 @@
 # <Navn>
 
 ## Om meg
-Språket jeg liker best: Norsk
+Språket jeg liker best: Kinetisk
 Beste stedet på gløs: Kontoret
 
 ## Runde 1
