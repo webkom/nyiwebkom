@@ -5,8 +5,7 @@ Det er helt med vilje.
 
 ## Forslag
 TODO — skriv forslaget ditt rett under denne linja:
-Haha jeg var først
-
+Fruktsalat
 
 ## Vedtatt
 (fylles ut til slutt)
