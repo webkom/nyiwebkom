@@ -1,7 +1,7 @@
 # <Navn>
 
 ## Om meg
-Språket jeg liker best: Norsk
+Språket jeg liker best: Engelsk
 Beste stedet på gløs: Webkom-kontoret
 
 ## Runde 1
