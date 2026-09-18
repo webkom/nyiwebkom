@@ -5,7 +5,7 @@ Det er helt med vilje.
 
 ## Forslag
 TODO — skriv forslaget ditt rett under denne linja:
-Eple og drue
+Fruktsalat
 
 ## Vedtatt
 (fylles ut til slutt)
