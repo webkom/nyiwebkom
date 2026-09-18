@@ -5,6 +5,7 @@ Det er helt med vilje.
 
 ## Forslag
 TODO — skriv forslaget ditt rett under denne linja:
+Eple og drue
 One million beer!
 
 ## Vedtatt
