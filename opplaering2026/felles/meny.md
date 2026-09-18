@@ -5,6 +5,7 @@ Det er helt med vilje.
 
 ## Forslag
 TODO — skriv forslaget ditt rett under denne linja:
+- Lage Taco
 
 ## Vedtatt
 (fylles ut til slutt)
