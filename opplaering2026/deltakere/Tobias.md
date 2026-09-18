@@ -1,7 +1,7 @@
 # <Navn>
 
 ## Om meg
-Språket jeg liker best: Kinesisk
+Språket jeg liker best: Norsk (Kinesisk)
 Beste stedet på gløs: Webkom kontoret
 
 ## Runde 1
