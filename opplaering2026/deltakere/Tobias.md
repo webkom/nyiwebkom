@@ -2,7 +2,7 @@
 
 ## Om meg
 Språket jeg liker best: Kinesisk
-Beste stedet på gløs:
+Beste stedet på gløs: Webkom kontoret
 
 ## Runde 1
 - [ ] Lag branchen `add-<navn>` fra fersk master
