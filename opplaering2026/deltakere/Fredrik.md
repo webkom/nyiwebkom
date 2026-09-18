@@ -1,8 +1,8 @@
 # <Navn>
 
 ## Om meg
-Språket jeg liker best:
-Beste stedet på gløs:
+Språket jeg liker best: Java (slang for JavaScript)
+Beste stedet på gløs: Webkom kontoret :p
 
 ## Runde 1
 - [ ] Lag branchen `add-<navn>` fra fersk master
