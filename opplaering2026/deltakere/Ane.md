@@ -20,5 +20,5 @@ Beste stedet på gløs: Kontoret
 
 ## Anbefaling
 <!-- Denne fyller <Nabo> ut i runde 2. Ikke rør den selv. -->
-Anbefalt av:
-Tips:
+Anbefalt av: Tobias
+Tips: Ikke drikk kaffe rett førdu legger deg
