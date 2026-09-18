@@ -1,8 +1,8 @@
 # <Navn>
 
 ## Om meg
-Språket jeg liker best:
-Beste stedet på gløs:
+Språket jeg liker best: Japansk
+Beste stedet på gløs: Webkom kontoret
 
 ## Runde 1
 - [ ] Lag branchen `add-<navn>` fra fersk master
