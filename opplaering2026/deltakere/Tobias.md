@@ -1,7 +1,7 @@
 # <Navn>
 
 ## Om meg
-Språket jeg liker best:
+Språket jeg liker best: Kinesisk
 Beste stedet på gløs:
 
 ## Runde 1
